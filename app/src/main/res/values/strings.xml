@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RAFTOL</string>
+    <string name="no_gps">Pas de signal GPS</string>
+
+    <string name="no_config">Pressez n\'importe quel bouton\npour commencer la simulation.</string>
+    <string name="optinvent_logo">Optinvent logo</string>
+    <string name="dga_logo">DGA logo</string>
+    <string name="splash_app_name">Application name</string>
+    <string name="name_text">Name Imge</string>
+    <string name="description">Description</string>
+</resources>

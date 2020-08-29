@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lin_lay"
+    android:orientation="vertical">
+
+    <!--
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/opt_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/opt_text"
+            android:adjustViewBounds="true"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/optinvent_logo" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            />
+
+        <ImageView
+            android:id="@+id/dga_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dga_text"
+            android:adjustViewBounds="true"
+            android:layout_weight="0.5"
+            android:layout_gravity="bottom"
+            android:contentDescription="@string/dga_logo" />
+
+    </LinearLayout>
+    -->
+
+    <ImageView
+        android:id="@+id/glow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/glow"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/name_text" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.95"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/name_text"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/name_text" />
+
+            <ImageView
+                android:id="@+id/desc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/desc_text"
+                android:adjustViewBounds="true"
+                android:layout_alignBottom="@+id/name_text"
+                android:contentDescription="@string/description" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.95"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

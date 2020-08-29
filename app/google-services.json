@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "437327730322",
+    "firebase_url": "https://raftol-62e78.firebaseio.com",
+    "project_id": "raftol-62e78",
+    "storage_bucket": "raftol-62e78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437327730322:android:74ed46ade65fd5d4",
+        "android_client_info": {
+          "package_name": "optinvent.com.raftol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437327730322-fhpi4o46fjef04s0jvnak6t5ani5gjvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "optinvent.com.raftol",
+            "certificate_hash": "98d6f4aa406dfbd25ad595ac41ea6fff7da59402"
+          }
+        },
+        {
+          "client_id": "437327730322-9hf0noe59rh5ngj9tg0c6pscm572vdt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEYtOJinsKzDRvf8I2yNHVg4v-_vm008w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437327730322-9hf0noe59rh5ngj9tg0c6pscm572vdt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
